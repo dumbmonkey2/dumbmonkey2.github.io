@@ -658,6 +658,8 @@ Object.keys(colorSettings).forEach((key) => {
 // Set CSS variables
 Object.entries(colorSettings).forEach(([key, value]) => {
     document.documentElement.style.setProperty(`--${key}`, value);
+    banner_element = document.getElementById("announcement-banner");
+    banner_element.style.setProperty('color', 'black');
 });
 
 // Save changes button event listener
