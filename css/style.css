@@ -790,8 +790,11 @@ button.in-game-button[attr-snapped='true'] img {
     padding: 10px; 
     text-align: center; 
     z-index: 9999; 
+    color: black;
+    float: right; 
+    cursor: pointer; 
 } 
-.announcement-banner .close-button { 
+.close-button { 
     color: black;
     float: right; 
     cursor: pointer; 
