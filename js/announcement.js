@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
         announcementBanner.style.display = "none";
     });
 
-    fetch("announcement.txt").then(function(response) {
+    fetch("../announcement.txt").then(function(response) {
         return response.text();
     }).then(function(text) {
         announcementBanner.innerHTML = text;
