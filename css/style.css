@@ -782,7 +782,7 @@ button.in-game-button[attr-snapped='true'] img {
 }
 
 
-.announcement-banner { 
+.announcement-banner {
     position: fixed; 
     top: 0; left: 0; 
     width: 100%; 
@@ -792,6 +792,7 @@ button.in-game-button[attr-snapped='true'] img {
     z-index: 9999; 
 } 
 .announcement-banner .close-button { 
+    color: black;
     float: right; 
     cursor: pointer; 
 } 
